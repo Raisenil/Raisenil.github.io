@@ -37,6 +37,8 @@ body{
     background: transparent;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
 .logo{
@@ -74,11 +76,12 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    /* background: url('') no-repeat;
+    /* background: url('../images/bg.png') no-repeat;
     background-size: cover;
-    background-position: center; */
+    background-position: center;*/
 }
 
+/* revision */
 .home-content{
     max-width: 60rem;
 }
@@ -209,4 +212,20 @@ section {
 
 .home-sci a:hover::before{
     width: 100%;
+}
+
+.home-imgHover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 100%;
+    background: transparent;
+    /* border: 2px solid red; */
+    transition: 3s;
+}
+
+.home-imgHover:hover{
+    background: var(--bg-color);
+    opacity: .8;
 }
