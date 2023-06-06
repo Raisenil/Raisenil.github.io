@@ -245,6 +245,10 @@ section {
     text-align: center;
 }
 
+span{
+    color:var(--main-color);
+}
+
 /* .about-img{
     position: relative;
     width: 25rem;
@@ -261,9 +265,7 @@ section {
     border: .2rem solid var(--main-color);
 }
 
-span{
-    color:var(--main-color);
-}
+
 
 .about-img .circle-spin{
     position: absolute;
