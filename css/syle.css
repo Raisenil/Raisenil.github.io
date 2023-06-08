@@ -209,7 +209,8 @@ section {
 .home-sci{
     position: absolute;
     bottom: 4rem;
-    width: 170px;
+    /* width: 170px; */
+    width: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -278,6 +279,7 @@ section {
 }
 
 .heading{
+    position: relative;
     font-size: 5rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -329,10 +331,13 @@ span{
 }
 
 .about-content h3{
+    position: relative;
+    display: inline-block;
     font-size: 2.6rem;
 }
 
 .about-content p{
+    position: relative;
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
@@ -768,7 +773,18 @@ span{
 #menu-icon .animate,
 .home.show-animate .animate{
     animation: showRight 1s ease forwards;
-    animation-delay:calc(.3s*var(--i));
+    animation-delay:calc(.3s * var(--i));
+}
+
+.animate.scroll{
+    transition: 1s ease;
+    transition-delay:calc(.3s / var(--i));
+    animation: none;
+}
+
+.about.show-animate .animate.scroll{
+    transition-delay:calc(.3s * var(--i));
+    width: 0;
 }
 
 /* Breakpoints */
@@ -873,7 +889,7 @@ span{
     }
 
     .home-sci{
-        width: 160px;
+        width: 100px;
     }
 
     .home-sci a{
