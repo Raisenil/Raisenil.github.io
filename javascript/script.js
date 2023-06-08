@@ -1,6 +1,6 @@
 // scroll section
 window.onscroll = () => {
-    let header=document.quarySelector('header');
+    let header=document.querySelector('header');
 
     header.classList.toggle('sticky',window.scrollY > 100);
 }
