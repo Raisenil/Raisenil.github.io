@@ -307,8 +307,6 @@ span{
     border: .2rem solid var(--main-color);
 }
 
-
-
 .about-img .circle-spin{
     position: absolute;
     top: 50%;
@@ -371,11 +369,14 @@ span{
 }
 
 .education-column .title{
+    position: relative;
+    display: inline-block;
     font-size: 2.5rem;
     margin: 0 0 1.5rem 2rem;
 } 
 
 .education-column .education-box{
+    position: relative;
     border-left: .2rem solid var(--main-color);
 }
 
@@ -782,7 +783,13 @@ span{
     animation: none;
 }
 
-.about.show-animate .animate.scroll{
+.education .education-box .animate.scroll{
+    width: 105%;
+}
+
+.about.show-animate .animate.scroll,
+.education.show-animate .animate.scroll,
+.education.show-animate .education-box .animate.scroll{
     transition-delay:calc(.3s * var(--i));
     width: 0;
 }
