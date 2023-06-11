@@ -42,7 +42,7 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 
     // animation footer on scroll
-    // let footer=document.querySelector('footer');
+    let footer=document.querySelector('footer');
 
-    // footer.clearList.toggle('show-animate', this.innerHeight + this.scrollY>=document.scrollingElement.scrollHeight);
+    footer.clearList.toggle('show-animate', this.innerHeight + this.scrollY>=document.scrollingElement.scrollHeight);
 }
