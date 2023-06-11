@@ -864,7 +864,11 @@ footer .animate.animate.scroll{
     }
 }
 
-@media (max-width
+@media (max-width: 850px){
+    .animate.home-img{
+        width: 55%;
+    }
+}
 
 @media (max-width:768px){
     .header{
