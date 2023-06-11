@@ -360,7 +360,7 @@ span{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* min-height: auto; */
+    min-height: auto;
     padding-bottom:5rem;
 }
 
@@ -447,7 +447,7 @@ span{
 }
 
 .skills {
-    /* min-height: auto; */
+    min-height: auto;
     padding-bottom: 7rem;
     background: var(--second-bg-color);
     
@@ -566,8 +566,8 @@ span{
 /* skills bar */
 
 .projects{
-    /* min-height: auto; */
-    padding-bottom: 7rem;
+    min-height: auto;
+    padding-bottom: 5rem;
     background: var(--bg-color);
 }
 
@@ -648,21 +648,30 @@ span{
 }
 
 .contact{
-    /* min-height: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* gap: 2rem; */
     background: var(--second-bg-color);
     padding-bottom: 6rem;
+    
 }
 
 .contact h2{
     display: inline-block;
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
 }
 
 .contact form{
     max-width: 100rem;
     margin: 0 auto;
+    max-width: 70rem;
+    margin: 1rem auto;
     text-align: center;
+    margin-bottom: 3rem;
+    width: 100%;
 }
 
 .contact form .input-box{
