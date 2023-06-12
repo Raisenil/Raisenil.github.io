@@ -795,7 +795,7 @@ span{
     color: var(--main-color);
 }
 
-/* Animation Reload and Scroll */
+/* Animation Reload and Scoll */
 
 .animate{
     position: absolute;
@@ -814,7 +814,7 @@ span{
 .logo .animate,
 .navbar .animate,
 #menu-icon .animate,
-.home.show-animate .animate{
+.home.show-animate .animate{ 
     animation: showRight 1s ease forwards;
     animation-delay:calc(.3s * var(--i));
 }
