@@ -69,7 +69,7 @@ window.onscroll = () => {
     sections.forEach(sec => {
         let top = window.scrollY;
         let windowHeight = window.innerHeight;
-        let offset = sec.offsetTop - (windowHeight * 0.50); // Updated scroll threshold to 50%
+        let offset = sec.offsetTop - (windowHeight * 0.40); // Updated scroll threshold to 50%
         let height = sec.offsetHeight;
         let id = sec.getAttribute('id');
 
