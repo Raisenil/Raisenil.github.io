@@ -453,6 +453,11 @@ span{
     list-style-type: disc;
 }
 
+.education-content .content a{
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
 .skills {
     min-height: auto;
     padding-bottom: 7rem;
