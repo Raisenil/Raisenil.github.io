@@ -458,7 +458,7 @@ span{
     color: var(--main-color);
 }
 
-.education-content .content p a{
+.education-content .content .par{
     font-size: 1.6rem;
     color: var(--text-color);
 }
