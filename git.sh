@@ -8,5 +8,6 @@ function push_to_github() {
 
 while true; do
     push_to_github
-    sleep 600
+    # time * 60
+    sleep 1800 
 done
