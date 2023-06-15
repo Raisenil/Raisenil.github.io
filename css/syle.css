@@ -446,6 +446,11 @@ span{
     padding-top: .5rem;
 }
 
+.education-content .content ul{
+    font-size: 1.6rem;
+    padding-top: .5rem;
+}
+
 .skills {
     min-height: auto;
     padding-bottom: 7rem;
