@@ -111,7 +111,7 @@ section {
 
 .home-content .text-animate{
     position: relative;
-    width: 30rem;
+    width: 32.6rem;
 }
 
 .home-content .text-animate h3{
@@ -142,7 +142,7 @@ section {
 }
 
 .home.show-animate .home-content .text-animate h3::before{
-    animation: homeCursorText 4s linear infinite;
+    animation: homeCursorText 6s linear infinite;
     animation-delay: 2s;
 }
 
