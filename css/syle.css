@@ -449,6 +449,8 @@ span{
 .education-content .content ul{
     font-size: 1.6rem;
     padding-top: .5rem;
+    padding-left: 2rem;
+    list-style-type: disc;
 }
 
 .skills {
