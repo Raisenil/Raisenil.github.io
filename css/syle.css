@@ -532,6 +532,10 @@ span{
     justify-content: space-between;
 }
 
+.skills-content .progress i{
+    font-size: 2.5rem;
+}
+
 .skills-content .progress h3 span{
     color: var(--text-color);
 }
@@ -890,9 +894,12 @@ span{
     animation: none;
 }
 
-section:nth-child(odd) .animate.scroll,
-footer .animate.animate.scroll{
+section:nth-child(odd) .animate.scroll{
     background: var(--second-bg-color);
+}
+
+footer .animate.animate.scroll{
+    background: var(--bg-color);
 }
 
 .education .education-box .animate.scroll{
