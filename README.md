@@ -38,9 +38,8 @@ To create this portfolio website, I utilized a combination of modern web develop
 
 This websites Primary Font is **Poppins**
 
-    ```
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
-    ```
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
+
 
 ## For Icons
 
