@@ -41,10 +41,32 @@ This websites Primary Font is **Poppins**
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
 
 
-## For Icons
+## Icons
 
 - [Iconfinder](https://www.iconfinder.com/)
 - [BoxIcons](https://boxicons.com/)
+
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+## Email
+
+### EmailJS
+
+For the contact me page EmailJS API is used  
+
+EmailJS is a service that allows you to send emails directly from client-side JavaScript code using SMTP (Simple Mail Transfer Protocol). It simplifies the process of sending emails by providing an API that handles the server-side communication and email delivery.
+
+    <script src="./javascript/email.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("ARkgRe39HmZ5I0b3L");
+        })();
+    </script>
 
 # Support or Contact Information:
 
