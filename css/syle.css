@@ -541,6 +541,11 @@ span{
     height: 2.5rem;
 }
 
+.skills-content .progress svg{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 .skills-content .progress h3 span{
     color: var(--text-color);
 }
