@@ -34,6 +34,18 @@ To create this portfolio website, I utilized a combination of modern web develop
 
 # Other Resources
 
+## Fonts
+
+This websites Primary Font is **Poppins**
+
+''
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
+'''
+
+## For Icons
+
+- [Iconfinder](https://www.iconfinder.com/)
+- [BoxIcons](https://boxicons.com/)
 
 # Support or Contact Information:
 
