@@ -818,6 +818,10 @@ span{
     font-size: 1.6rem;
 }
 
+.footer-text p a{
+    color: var(--main-color);
+}
+
 .footer-iconTop a{
     position: relative;
     display: inline-flex;
